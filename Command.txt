@@ -4,11 +4,16 @@
 
 2. run the Elasticsearch
 (The version important 8.15.0 )
-docker run -d --name es -p 9200:9200 `
-  -e "discovery.type=single-node" `
-  -e "xpack.security.enabled=false" `
-  -e "ES_JAVA_OPTS=-Xms1g -Xmx1g" `
-  docker.elastic.co/elasticsearch/elasticsearch:8.15.0
+    docker run -d --name es -p 9200:9200 `
+      -e "discovery.type=single-node" `
+      -e "xpack.security.enabled=false" `
+      -e "ES_JAVA_OPTS=-Xms1g -Xmx1g" `
+      docker.elastic.co/elasticsearch/elasticsearch:8.15.0
 
 3. Run to testing
- curl http://localhost:9200`
+    curl http://localhost:9200
+
+4. Run and see prints
+    python -u main.py
+
+
