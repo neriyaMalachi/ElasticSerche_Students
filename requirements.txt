@@ -1,0 +1,14 @@
+pip~=25.2
+numpy~=2.3.0
+charset-normalizer~=3.4.2
+pytz~=2025.2
+scipy~=1.16.1
+threadpoolctl~=3.6.0
+typing_extensions~=4.14.1
+matplotlib~=3.10.3
+packaging~=25.0
+joblib~=1.5.1
+scikit-learn~=1.7.1
+pandas~=2.3.0
+elasticsearch~=8.15.0
+
