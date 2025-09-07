@@ -24,7 +24,7 @@ for i, doc in enumerate(documents):
     es.index(index=index_name, id=i, body=document)
     if i % 100 == 0:
         print(f"Indexed {i} documents.")
-
+print("khhkhj")
 
 
 query = {
